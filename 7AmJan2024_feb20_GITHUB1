@@ -1,0 +1,1210 @@
+
+Integrated Training : 
+
+Automating : Coding 
+
+Selenium + Java + framework (CucumberFramework ) + Git + CICD
+
+Testing : To verify the application is working as per requirment 
+
+Manual Testing : Physical validation - eye to eye 
+
+Manual intervation 
+
+Automation Testing : Coding
+
+Webpage - WebBrowser - Selenium Tool 
+Mobile - Appium tool 
+Desktop - UFT 
+
+30 Hours 
+
+
+
+Selenium : WebPage Automation Tool 
+
+OpenSource / Freeware 
+
+Features : 
+
+1. Mulitple Browsers : 
+
+		Chrome , Edge , Firefox , Opera 
+		
+		Crossbrowser testing 
+		
+2. Multiple Programming Lanaguage 
+
+		Java , python , JS , C# , Ruby 
+		
+3. Mutliple Operating System : 
+
+		Windows , Mac , Linux 	
+
+
+Coding --> IDE (Integrated Development Environment )
+
+Eclipse , Intelliji , pycharm ,visuval code 
+
+Java + Maven 
+
+Save -> Local (Our System) -> GitHub
+
+CICD - Jenkins 
+
+
+cmd : java -version
+
+Java 17 & 21 (LTS)
+
+https://www.oracle.com/java/technologies/downloads/
+
+IntelliJ IDEA Community Edition
+
+https://www.jetbrains.com/idea/download/?section=windows
+
+Create Github Account 
+https://github.com/ 
+
+Github Desktop 
+
+https://desktop.github.com/
+
+-------------------------------------------------------
+
+IDE -> Workspace where we will do the coding 
+
+Project : 
+
+Java Project ------------> Maven Project 
+
+Local - our system 
+
+Main Menu -> New -> Create Project 
+
+src - Source folder ---> Coding 
+
+Maven provides proper folder structure 
+
+src/main/java
+src/main/resources 
+src/test/java  ---> Coding 
+src/test/resources (rightclick -new - directory)
+
+
+Setup - Configuration 
+
+Path of Java - Home (Root folder) , Bin (bin root path ) -> path 
+
+Game ---> Java 
+
+BIN 
+
+Environment Variables --> System Variables 
+
+Advance system settings 
+
+cmd : java -version , where java 
+
+Maven -> 
+
+https://maven.apache.org/download.cgi
+
+Files - Binary zip archive 
+
+.exe -> windows 
+.apk -> andriod 
+
+Maven -> mvn 
+
+mvn -version 
+
+Java , Selenium 
+
+64 bit windows --> 4GB -> 8GB 
+
+OS -> Windows 10, 11 
+
+
+-----------------------------------------------------
+Day 3 : 25/01 
+
+Basics of Java : 
+
+Structure : 
+
+src/main/java
+src/main/resources 
+src/test/java  ---> Coding 
+src/test/resources (rightclick -new - directory)
+
+
+Project --> Package --> Class --> Method --> coding 
+
+Coding Standard : 
+
+1. Naming Conversion 
+
+Package --> lowercase  - hiiamaravinth
+Class --> pascalcase - HiIAmAravinth
+method / varaibale name-> camelcase ->hiIAmAravinth   -> iPhone
+
+bikeride
+BikeRide
+bikeRide
+
+Java is case sensitive langauage 
+
+a A 
+Aravinth = aravinth 
+
+psvm ---> create a main method --> Run the code 
+
+
+12 100  int 
+
+19.55   double 
+
+% 		char   - ''
+
+aravinth String - ""
+
+Data types of java : 
+
+datatype variablename = value ;
+
+variablename - user provided name (Should always unique inside the method)
+
+int firstNumber = 12 ;
+
+Variable holds the value 
+
+print statment -> output in console 
+
+sout 
+-----------------------------------------
+Day 4 : 26/01
+
+Maven : Build managment tool / Project mangament tool 
+
+Provides the proper folder structure 
+
+Java + Selenium 
+
+WebDriver d ;
+
+Selenium JAR files 
+
+exe 
+apk 
+jar 
+
+Add the Jar files in to the project 
+
+Selenium dependency 
+
+html layer : 
+
+open tag and close tag 
+
+<>   </>
+
+<aravinth>   </aravinth>
+
+<apple> 
+		<iphone>   </iphone>
+		
+</apple>
+
+<dependencies>
+
+		<dependency>  </dependency>
+
+</dependencies>
+
+Maven Repository / Repo : Storage area 
+
+https://mvnrepository.com/
+
+Reload ---> pom.xml Communicate to the global repo 
+
+Global Repo --> Any one can access (mvn)
+Private Repo --> organization specifc - Specifc people 
+Local Repo --> our system (.m2)
+
+---------------------------------------------------
+
+Day 5 :
+
+
+Selenium --> Intract with the webpage 
+
+FrondEnd - UI - User Interface 
+BackEnd - DOM - Document Object Model 
+
+html code 
+
+F12
+Inspect 
+
+Node --> each node is mapped to certain field in UI 
+
+Node - Tag & Elements -> Multiple Element (Attribute & its value )
+
+<input class="input r4 wide mb16 mt8 username" type="email" value="" name="username"
+ id="username" aria-describedby="error" style="display: block;">
+
+<html>
+
+<head>    </head>
+
+<body>  
+
+		<>
+		<>
+		<>
+		<>
+		<>
+
+</body> 
+
+
+</html>
+
+Locators : 
+
+1. id
+2. name 
+3. class name 
+4. xpath 
+5. css selector 
+6. Link text 
+7. partial link text 
+8. tagname 
+
+Inputs ---> sendKeys()
+click ---> click()
+text ----> getText()
+
+Components of selenium : Version of selenium 
+
+1. Selenium IDE : 
+
+Chrome , Firefox  ---> Extension (plugin) - chrome store 
+
+Record and play back Testing 
+
+Command  --> User Actions 
+Target 
+value --> user Inputs 
+
+Command Line Runner 
+
+Doesn't give expected result 
+
+Optimized way is not possible 
+
+Record ---> Selenese Command --> play 
+
+
+Selenium RC (Remote Control)
+
+Code optimization - Java , Python - multiple browser 
+
+Selenium servers & client libraries 
+
+2. Selenium WebDriver 
+
+3. Selenium Grid - Parallel execution (hub & node )
+
+-----------------------------------------------
+
+Selenium WebDriver  : 
+
+Main -> Run the program 
+
+JVM - Java Virtual machine 
+
+Human readable form ---> Machine readable form (Binaries)
+
+0 1 
+
+aravinth -->  0110000101110010
+ARAVINTH 
+
+ASCII Value 
+
+Load 
+Verify - main 
+Execute 
+
+JRE - Java Runtime Environemnt 
+
+Actual Run 
+
+JDK - Java Development Kit 
+
+
+Cupboard --> Salt , pepper - dedicated space 
+
+Cupboard a = new Cupboard();
+
+dedicated space  to WebDriver 
+
+Object --> Memory allocated 
+
+new keyword 
+
+Aravinth a = new Aravinth();
+
+Apple b = new Apple();
+
+iphone i = new iphone();
+
+WebDriver driver = new WebDriver();
+
+WebDriver as Interface (abstraction)
+
+Mobile phone Example : 
+
+SIM Port  Jio
+
+airtel()
+jio()
+bsnl()
+vi()
+
+Methods are declared in the interface when ever required we are going to define the method 
+
+We can't create an object for an interface 
+
+Airtel 
+Jio
+Bsnl
+Vi 
+
+code ------https---------WebDriver---------htpps-----------> WebBrowser (chrome , Edge , firefox)
+
+
+ChromeDriver -> methods 
+EdgeDriver 
+SafariDriver 
+GerkoDriver 
+
+WebDriver driver = new ChromeDriver();
+
+WebDriver driver = new EdgeDriver();
+
+Browser Invocation -> open the browser -> webdriver 
+
+
+Class --> object 
+
+------------------------------
+02/02/2024
+
+Webpage Automation --> URL 
+
+
+get(String url) ---> to provide the URL  ""
+
+Parametrized method
+non Parametrized method 
+
+apple(String a, int b)   --> Arugument (input)  -> 2P -> 2A
+cat(int b) - 1P - 1A
+
+aravinth()
+
+Exception in thread
+
+org.openqa.selenium.InvalidArgumentException: invalid argument
+
+finding the element in Backend DOM structure 
+
+Locators : By Class  
+
+1. id       ----> id attribute in each node 
+2. name   ---- name attribute in each node 
+3. class name --> class attribute in each node 
+4. xpath 
+5. css selector 
+6. Link text 
+7. partial link text 
+8. tagname 
+
+Class cointains method 
+
+id(String h)
+name()
+class()
+xpath()
+
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#aravinth"}
+
+id="aravinth"
+
+
+Xpath : Find all the elements 
+
+//tagname[@attribute='value']  --> Regular expession of the xpath 
+
+attribute - should be unique 
+
+//input[@id='username']
+
+//input[@name='Log In']
+
+//div[@style='display: none']
+
+findElement -> Always pick the first matching result  
+
+//input[@type='password']
+
+
+Absolute Xpath : /
+
+head to tail 
+
+<html>
+
+<body>
+		<a>
+		<j>
+		<b>
+		<c>  ------> 
+		<d>
+
+</body>
+
+
+</html>
+
+/html/body/a/j/b/c
+
+/html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input[1]
+
+Ex: Auditorium 
+
+Code breakage 
+
+Relative Xpath: //
+
+Ex : Delivery Agent - Ex Amazon 
+
+Steet - Blue colur house + Black agent - 20 + Houses 
+
+//tagname[@attribute='value']
+
+---------------------------------------------------------------------
+
+//div[@id='error']
+
+
+//div[@class='loginError']
+
+
+Conditions in Java : 
+
+if , else if,  else , switch 
+
+if(condition){
+
+}
+else{
+
+}
+
+int a = 1 ;
+int b = 2 ;
+
+equal or not 
+
+== + - / * < >  <= >= =! ---> Operaters of Java 
+
+if(a == b){
+
+		print("Both are equal")
+}
+else{
+
+print("Both are not equal)
+
+}
+
+Break points - Debug points 
+
+Execution will be under our control 
+
+True / False - boolean 
+
+equals() -> Compares the 2 String value 
+
+
+int a = 1 ;
+int b = 2 ; 
+
+
+equal -> 
+a is greater b 
+b is gerater a 
+
+if (condition 1){
+
+}
+else if(Condition 2){
+
+}
+else if (condition 3){
+
+}
+else{
+
+}
+
+
+Calculator : + - * / 
+
+int a ;
+int b ;
+
+operator -> 
+
+
+---------------------------------
+Role : Manager - 500 , Staff - 350 , Clerk - 200
+
+No of working days - 20 
+
+Role & no of working 
+-----------------------------------
+
+Locators : 
+
+id , name , xpath , css selector , link text , partial link text , tag name 
+
+//div[@class='loginError']
+
+Surrounding nodes/ elements - Xpath Axis 
+
+1. parent 
+2. Child 
+3. Following 
+4. Preceding 
+5. Following-child 
+6. Preceding-child
+7. Anscestor 
+8. descendant 
+
+
+Fix a node (xpath) / key word Xpath axis :: tagname[@attribute='value'] or tagname[index]
+
+//form[@id='login_form']/child::div
+
+Blood Relation concept : 
+
+Previous Generations - Grand parents 
+Current Genration - parents 
+Next Generation - child 
+
+html code -> parent node , child node , grandparants node 
+
+open tag  - <>
+close tag - </>
+
+findElements -> first matching element 
+
+//form[@id='login_form']/child::div[@class='loginError']
+
+child to parent : 
+
+//div[@id='usernamegroup']/parent::form
+
+Xpath - parent to child to parent 
+
+//div[@id='username_container']/child::input[1]/parent::div/parent::div/child::label
+
+//input[@id='username']/preceding-sibling::div/following-sibling::input[1]/parent::div
+
+//div[@class='nav-search-submit nav-sprite']/parent::div/following-sibling::input[@id='issprefix']
+
+descendant - child as well as grandchild 
+ancestor - parent as well as grandparent 
+
+//div[@id='username_container']/descendant::div[@id='idcard']
+
+//div[@id='username_container']/descendant::img/following-sibling::a
+
+//div[@id='username_container']/descendant::img/following-sibling::a/ancestor::div[3]
+
+--------------------------
+
+Java 
+
+Array : []    --> Store multiple values of similar data types in an index order
+
+int a = 12,45,78 ; 
+
+variable holds the value 
+int []
+String []
+char []
+
+int [] a = {45,56,78};
+
+index -> 0,1,2
+
+a[index]
+a[1]
+
+java.lang.ArrayIndexOutOfBoundsException
+
+Index 4 out of bounds for length 4
+
+Loops : ---> Repative action 
+
+for , while , do while 
+
+for(intilization, condition - true , increment ){
+
+
+}
+
+int a[] ={45,34,78}; //length - 3
+
+++  increment  +1
+--  decrement  -1
+
+for(int k=0 - 1 ; k < a.length - 2 - 5 -8 ; k++ - 4 - 7  ){
+			 0 < 3	- true
+			 1 < 3  - true	
+			 2 < 3  - true
+			 3 < 3  - false -> treminated   - 3 -6
+print(a[k]) - a[0] - 45
+print(a[k]) - a[1] - 34
+print(a[k]) - a[3] - 78
+}
+
+----------------------------------------------
+
+Framework :  Execution System 
+
+100 Scenarios - Run as well maintain 
+
+Regression Testing : Important Functionality of an application (Happy path flow)
+
+WhatsApp : Chat,status,call ---> Exitsting code (old code)
+
+Payments   --> New Code 
+Broadcast 
+
+1. Label name of Textbox
+2. Valid credi 
+3. Invalid credi - error message 
+4. User name Textbox 
+5. Password name Textbox 
+
+TestNG, Junit - TDD - raw code 
+
+Cucumber BDD 
+
+Cucumber BDD 
+
+BDD - Behaviour Driven Development (Both Technical as well as non Technical Person)
+
+Test Design --> Automation Code -> Execution 
+
+Gherkin lauganuage (Plain English )
+
+Given - Prerequest 
+When - user action 
+Then - validation 
+And -
+
+Scenario: Error message validation in Salesforce application  
+	Given user navigates to salesforce application 
+	When user enters the username "" and password "" 
+	And user clicks the login button
+	Then user validates the error message  	
+	
+1. Feature File ---> Test Design -> .feature
+2. Step Defination File --> Automation Coding 
+3. Test Runner File --> Run 
+
+Plugins in IntelliJ : Gherkin keywords 
+
+Cucumber + 
+Cucumber for Java 
+Gherkin 
+
+inputs --> Test Data 
+
+
+Pay later : 
+
+Search + select + add to kart + payment page + paylater 
+login the amazon 
+
+Feature: User logs in the Amazon website
+
+  Scenario: User successfully logs in
+    Given user navigates to Home page of amazon application and click the sign In 
+    When user enter the username "abc" and password "123"
+    And user clicks the login button
+    Then verify user land on Amazon welcome page
+
+
+  Scenario: User unable to login
+    Given user navigates to amazon application
+    When user enter the username "abc" and incorrect password "123"
+    And user clicks the login button
+    Then user get the message "incorrect username"
+
+Feature: Login Validation of Amazon
+
+    Scenario: Logging in Amazon website
+      Given user navigates to Amazon application
+      When user hovers on "Hello, sign in", click on the Sign In button
+      And user enters the email or mobile phone number "test@test.com"
+      And user clicks on Continue button
+      And user enters the password "abc@123"
+      And user clicks on Sign In button
+      Then user validates that Sign is successful
+
+
+Feature: Open Amazon site and Sign in the Application
+
+    Scenario: Verify the continue shopping with first set of characters shown in the image
+      Given Launch the browser
+      And Provide the url "amazon.in"
+      Then amazon site to provide the characters is opened
+      When enter the characters you see in the image
+      And click on continue shopping
+      Then amazon website is launched
+
+    Scenario: Verify the continue shopping with first set of characters shown in the image
+      Given Launch the browser
+      And Provide the url "amazon.in"
+      Then amazon site to provide the characters is opened
+      When user click on try different image
+      And enter the characters you see in the image
+      And click on continue shopping
+      Then amazon website is launched
+
+Scenario: Verify the Signin of the Amazon with valid details
+      Given Navigate to amazon.in
+      When Hoveron the Signin option on the header bar
+      And click on sign in button
+      Then Amazon signin page is displayed
+      When enter the mobile number "85745664626"
+      And click on continue
+
+    Scenario: Verify the Signin of the Amazon with invalid details
+      Given Navigate to amazon.in
+      When Hoveron the Signin option on the header bar
+      And click on sign in button
+      Then Amazon signin page is displayed
+      When enter the mobile number "8574566462654686486"
+      And click on continue
+
+Feature: Amazon payment flow
+  Scenario: Amazon PayLater flow
+    Given user navigates to Amazon URL
+    When user search product name "iphone 15 pro max case" in search bar
+    And user click on search button
+    And click on the product
+    And Add to cart
+    And Proceed to checkout
+    And place your order
+    Then user validates order confirmation
+
+Feature: User logins in the Amazon application
+  
+Scenario:  User login to the Amazon application
+  Given user navigates to Homepage of amazon application and click the login
+  When user enters the username "abc" and password "123"
+  Then user navigates to search textbox
+  And user enter the search keyword "iphone"
+  Then user hits enter
+  And user validates the search result page
+  Then user selects to add to cart
+  And user clicks pay later
+  Then user validates the pay later result
+
+
+Feature: PayLater Validation on Amazon
+
+    Scenario: Validating PayLater payment mode on Amazon
+      Given user navigates to Amazon application
+      When user enters the search keyword "Chair"
+      And user selects the "Chair" to buy
+      And user opens the product link
+      And user clicks on the 'Add to Cart' button
+      And user clicks on the 'Proceed to Buy' button
+      And user selects the Delivery Address
+      And user selects the Delivery Speed
+      And user clicks on the Pay Later button on Select Payment method
+      Then user validates that Pay Later feature is successful
+
+
+Coding : 
+
+FeatureFile - design 
+StepDefinationFile - map the coding 
+
+Annoataions - @
+
+Given - @Given
+When  - @When
+Then  - @Then
+And  - @And 
+
+Scenario: Error message validation with invalid credi
+    Given user navigates to salesfroce application
+    When user enter the username "abc" and password "123"
+    And user clicks the login button
+    Then user validate the error message
+	
+Scenario: Sample
+		Given sample test 
+
+@Given("statment")
+
+
+@Given("user navigates to salesfroce application")
+public void navigateToUrl(){
+
+
+}
+
+@Given("sample test")
+public void m1(){
+
+}
+
+Video : https://www.youtube.com/watch?v=y_nZXvNNIaw&list=PLwLvkqHtpDqycTgu-MBmMX632iwBFPbBI
+
+
+@RunWith()   ---> top of the class 
+
+JunitRunner
+TestNgRunner
+
+@CucumberOptions() ---> Map the path of feature file and step defination file 
+
+features - content root path (src),
+glue - packagename 
+
+ctrl + space 
+
+scr/main/java
+main/resources
+test/java ---->Automation coding 
+test/resources --> supportive files required for coding 
+
+tags -> unique to specific scenario or common to mutliple scenario 
+@
+
+tag()
+
+io.cucumber.junit.UndefinedStepException:
+
+DuplicateStepDefinitionException:
+
+
+Local Variable --> inside the method 
+Global Varaibale --> class level 
+
+Data table - | 
+
+------------------------------------------------------------------
+
+Reusable : 
+
+configuation file ---> Browser , Test Environement - URL 
+
+.properties 
+
+main/java - Reusable class file 
+main/ resources - confile 
+
+test/java - Automation code 
+test/resources 
+
+Key to value pair relation 
+
+name = aravinth 
+
+browser = 
+testenvironement = 
+
+Properties class --> we can read the properties file 
+
+Object 
+
+Properties prob = new properties();
+
+class will contains method 
+
+load()
+
+Read --> FileInputStream
+Write -- FileOutputStream
+
+
+Browser Invocation as First 
+
+Hooks ---> pre condition and the post conditions 
+
+
+@Before  ---> Before exeuting any Scenario 
+public void setUp(){
+
+}
+
+@After  --> After executing all the test steps in the respective scenario 
+public void end(){
+
+}
+
+equals() - exact match 
+equalsIgnoreCase() 
+
+Inheritance  - Property of one class to another class 
+
+extends 
+
+Class A --> int a = 100;
+
+class three 
+Class one extends class three
+
+Class two extends Class one
+
+Class D extends Class A  --> single inheritance 
+
+Class B extends Class D   --> multiple Inheritance  --> Multiple level Inhertiance 
+
+Class C extends Class B 
+
+
+Access Modifer : usage 
+public -> same packages , different packages 
+private 
+protected 
+default -- same package 
+
+
+Methods ---> static method , non static method 
+
+
+public static void m1()
+{
+
+
+}
+
+
+public void m2(){
+
+}
+
+static method will accept only static data  ---> static method in other classes (object creation is not required)
+
+classname.methodname  
+
+non static - static as well as non static data  --> we need to create a object 
+
+textbox , button , radio button , check boxes , dropdown , hyperlinks 
+
+Dropdown - Holds some set of values 
+
+1. Static Dropdown  --> fixed 
+2. Non Static Dropdown --> Dynamic values 
+
+tags --> select 
+
+Select Class 
+
+Select categ = new Select();
+
+1. selectByValue  ---> value attribute 
+2. selectByIndex
+3. selectByVisibleText
+
+WebDriver ----> find the respective element in the entire DOM structure 
+
+WebElement --> specifc node 
+
+restricitng usage of the webdriver 
+
+
+tagName --> 
+
+findElement --> first matching element - 1 
+findElements - all matching element 
+
+---------------------------------------
+
+Dynamic Dropdown : 
+
+other than Select -> 
+
+
+Xpath Axis -> 
+
+Relative + Relative Xpath 
+Relative + Absolute Xpath 
+
+//div[@id='ControlGroupSearchView_AvailabilitySearchInputSearchViewdestinationStation1_CTNR']//a[@value='MAA']
+
+//div[@id='username_container']/div/div/a
+
+
+Table :
+ 
+WebElement 
+
+Structure of the table 
+
+//table[@class='infobox vcard']
+
+caption 
+tbody
+
+tr - row 
+th - column 1 
+td - column 2 
+
+
+tr - row 
+
+th - head values of each column 
+td - values of each column
+
+-------------------------------------------------
+Mouse Hower Actions : 
+
+Actions 
+
+Actions a = new Actions();
+
+clickAndHold 
+DoubleClick 
+Drag and Drop 
+context click
+
+composit action - build() perform()
+
+//tagname[text()='']
+
+//span[text()='Baby Wishlist']
+
+
+starts with a (anchor) tag -> hyperlink 
+
+linktext() ---> Full text  - Baby Wishlist
+partialLinktext() --> Partial values  - by Wish
+
+
+Reports :  html , json , xml 
+
+plugin = {html:path}
+
+TakesScreenshot 
+
+BeforeStep
+AfterStep
+
+Result Injection : 
+
+Project managment tool - JIRA 
+
+close() --> current instance 
+quit() --> all instance 
+
+NoSuchElementException: no such element: Unable to locate element
+
+
+Frames: Components which are hosted on the webpage ( Specific Containers)
+
+Independent html code 
+
+frame , iframe 
+
+switchTo()
+ 
+-------------------------------------------------------------------
+
+Package : collectio of class, interface/ other files 
+
+1. User Defined packages 
+2. Pre defined Package (Build - in )
+
+import. package.classname 
+
+Class A - pack 1    Class B - pack 2
+
+----------------------------
+
+Waits : 
+
+TimeOutExceptions 
+
+WebDriver ---> FindtheElement --> DOM --> node 
+
+Front end as backend should be insync 
+
+1. Implicit Wait -> Fixed wait or Global wait time 
+
+	Default wait time - 5 Seconds 
+	
+	defined only once - it will apply to all line of code 
+
+2. Explicit Wait --> Specifc wait time 
+
+specific line of code 
+
+enter the from , to , search button 
+
+wait for sometime 
+
+Result 
+
+WebDriverWait - class 
+
+
+5 S 
+
+10 S 
+
+12 S 
+
+fluent wait -> polling time 
+
+Maxium 15 S					5s , 10s 
+pollingEvery(5S) ----> check for the element (repeat) ---> break of waiting loop 
+
+---------------------------
+
+Local ---> accessed only by me 
+
+Team - 5 Automation 
+
+Repository --> Storage Area  (Base Code)
+
+Github Repository 
+
+Mavaen Clean -> Temp files 
+
+Push - new changes from local to repo  , pull - repo to our local 
+
+commit 
+
+https://github.com/LearnMoreTraining/RainbowProject.git
+
+
+
+
+
